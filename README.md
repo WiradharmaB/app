@@ -1,11 +1,83 @@
-# Sample Snack app
+Panduan Aplikasi Sederhana
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Pendahuluan
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Ini adalah aplikasi sederhana yang dibuat menggunakan React Native dan Expo. Aplikasi ini menampilkan splash screen, layar login, pengambilan data dari API, fitur pencarian, dan penanganan error.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Fitur
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+Splash Screen dengan logo kustom.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Layar login dengan validasi email dan password.
+
+Layar Home yang menampilkan data dari API.
+
+Fitur pencarian untuk memfilter data.
+
+Penanganan error saat pengambilan data dari API gagal.
+
+Persyaratan
+
+Node.js (untuk pengembangan lokal)
+
+Expo CLI (untuk menjalankan aplikasi)
+
+Akun GitHub (untuk mengakses repositori)
+
+Instalasi
+
+1. Clone Repositori
+
+git clone <repository-url>
+
+Ganti <repository-url> dengan URL repositori GitHub.
+
+2. Masuk ke Direktori Proyek
+
+cd simple-application
+
+3. Install Dependensi
+
+npm install
+
+4. Jalankan Aplikasi
+
+npm start
+
+Ini akan memulai server pengembangan Expo.
+
+5. Buka Aplikasi
+
+Unduh aplikasi Expo Go di perangkat Anda dari Google Play Store atau Apple App Store.
+
+Pindai kode QR yang ditampilkan di terminal atau browser untuk membuka aplikasi di perangkat Anda.
+
+Penggunaan
+
+Login
+
+Masukkan kredensial berikut untuk login:
+
+Email: wira
+
+Password: 1234
+
+Layar Home
+
+Layar home menampilkan daftar data yang diambil dari API.
+
+Gunakan kotak pencarian di bagian atas untuk memfilter data berdasarkan nama.
+
+Penanganan Error
+
+Jika aplikasi gagal mengambil data dari API, pesan error akan ditampilkan.
+
+Alternatif Penggunaan
+
+Untuk penggunaan yang lebih sederhana, Anda dapat menggunakan Expo Snack:
+
+Kunjungi Expo Snack.
+
+Upload file proyek ini. atau import git repisotory dan jika muncul error index maka hapus file index untuk expo snack lalu app harusnya berjalan dengan lancar
+
+Jalankan aplikasi langsung di browser atau perangkat Anda.
